@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+.custom-font{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.header-background-color{
+    background-color: #FFFBF0;
+}
+
+.text-highlight{
+    color: #FABE4C;
+}
+
+.text-color{
+    color: #363958;
+}
+
+.card-image-background{
+    background-color: #F1F1F1;
+}
+
+.contact img{
+    width: 78px;
+    height: 82px;
+}
+
+.penguin-fashion-button{
+    
+    background-image: linear-gradient(30deg, #A4BC46, #92af1d);
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.penguin-fashion-card{
+    border-radius: 15px;
+}
+
+@media (min-width: 993px) { 
+    .content-direction{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 992px) { 
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .text-align{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .content-middle{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        
+    }
+
+
+}
